@@ -5,13 +5,13 @@
 1. UI上允許多個user使用
 2. 文字聊天室必備的text area和send button
 3. 按下send之後要考慮的問題
-   (A) message event要包含的資訊 : event type, user info, text
-   (B) 要以何種方式傳遞訊息 : JSON格式的string
-   \(C\) 如何和後端溝通 : Websocket
+   1. message event要包含的資訊 : event type, user info, text
+   2. 要以何種方式傳遞訊息 : JSON格式的string
+   3. 如何和後端溝通 : Websocket
 4. 考慮未來可能的擴充並保持程式的彈性
-   (A) login page功能擴充
-   (B) user info增加
-   \(C\) 各個UI的改動
+   1. login page功能擴充
+   2. user info增加
+   3. 各個UI的改動
 
 ### 檔案目錄
 
@@ -44,5 +44,5 @@
 
 ### 參考資料
 
-https://ithelp.ithome.com.tw/users/20120647/ironman/3110
-https://bootsnipp.com/snippets/dldxB
+- https://ithelp.ithome.com.tw/users/20120647/ironman/3110
+- https://bootsnipp.com/snippets/dldxB
